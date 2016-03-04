@@ -1,4 +1,4 @@
-package variable;
+package dataTypes.variable;
 
 /**
  * Project: jumptojava
