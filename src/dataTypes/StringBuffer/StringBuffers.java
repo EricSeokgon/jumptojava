@@ -22,5 +22,14 @@ public class StringBuffers {
         temp += " ";
         temp += "jump to java";
         System.out.println(temp);
+
+        StringBuffer sb2 = new StringBuffer();
+        sb2.append("jump to java");
+        sb2.insert(0, "hello ");
+        System.out.println(sb2.toString());
+
+        StringBuffer sb3 = new StringBuffer();
+        sb3.append("Hello jump to java");
+        System.out.println(sb3.substring(0, 4));
     }
 }
