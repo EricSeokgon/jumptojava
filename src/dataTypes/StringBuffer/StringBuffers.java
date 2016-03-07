@@ -16,5 +16,11 @@ public class StringBuffers {
         sb.append(" ");
         sb.append("jump to java");
         System.out.println(sb.toString());
+
+        String temp = "";
+        temp += "hello";
+        temp += " ";
+        temp += "jump to java";
+        System.out.println(temp);
     }
 }
