@@ -11,6 +11,5 @@ public class Lists {
         pitches.add("138");
         pitches.add("129");
         pitches.add("142");
-
     }
 }
