@@ -11,5 +11,16 @@ public class Lists {
         pitches.add("138");
         pitches.add("129");
         pitches.add("142");
+
+        //get
+        System.out.println(pitches.get(1));
+
+        //size
+        System.out.println(pitches.size());
+
+        //contains
+        System.out.println(pitches.contains("142"));
+
+
     }
 }
