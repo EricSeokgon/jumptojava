@@ -21,6 +21,8 @@ public class Lists {
         //contains
         System.out.println(pitches.contains("142"));
 
-
+        System.out.println(pitches.remove("129"));
+        System.out.println(pitches.size());
+        System.out.println(pitches.remove(0));
     }
 }
