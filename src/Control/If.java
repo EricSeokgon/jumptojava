@@ -13,15 +13,19 @@ import java.util.ArrayList;
  */
 public class If {
     public static void main(String[] args) {
+        boolean watch = true;
         final ArrayList<String> pocket = new ArrayList<>();
         pocket.add("paper");
         pocket.add("hadphone");
-        pocket.add("money");
 
         if (pocket.contains("money")) {
             System.out.println("택시를 타고 가라");
         } else {
-            System.out.println("걸어가라");
+            if (watch) {
+                System.out.println("택시를 타고 가라");
+            } else {
+                System.out.println("걸어가라");
+            }
         }
     }
 }
