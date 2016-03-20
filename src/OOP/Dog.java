@@ -10,9 +10,18 @@ package OOP;
  * To change this template use File | Settings | File Templates.
  */
 public class Dog extends Animal {
+    public void sleep() {
+        dogName(this.name + " zzz");
+    }
+
     public static void main(String[] args) {
         final Dog dog = new Dog();
         dog.setName("poppy");
-        System.out.println(dog.name);
+        dogName(dog.name);
+        dog.sleep();
+    }
+
+    private static void dogName(String name) {
+        System.out.println(name);
     }
 }
