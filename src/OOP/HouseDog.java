@@ -10,12 +10,17 @@ package OOP;
  * To change this template use File | Settings | File Templates.
  */
 public class HouseDog extends Dog {
-    public void sleep(){
-        System.out.println(this.name+" zzz in house");
+    public HouseDog(String name) {
+        this.setName(name);
     }
+
+    public void sleep() {
+        System.out.println(this.name + " zzz in house");
+    }
+
     public static void main(String[] args) {
-        final HouseDog houseDog = new HouseDog();
-        houseDog.setName("happy");
-        houseDog.sleep();
+        final HouseDog dog = new HouseDog("happy");
+        System.out.println(dog.name);
+
     }
 }
