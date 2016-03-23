@@ -10,6 +10,10 @@ package OOP;
  * To change this template use File | Settings | File Templates.
  */
 public class Dog extends Animal {
+    public Dog(){
+
+    }
+
     public void sleep() {
         dogName(this.name + " zzz");
     }
