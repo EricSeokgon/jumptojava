@@ -11,6 +11,6 @@ package OOP;
  */
 public class ZooKeeper {
     public void feed(Predator predator) {
-        System.out.println("feed tiger");
+        System.out.println("feed "+predator.getName());
     }
 }
