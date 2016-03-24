@@ -10,7 +10,4 @@ package OOP;
  * To change this template use File | Settings | File Templates.
  */
 public class Tiger extends Animal implements Predator {
-    public String getName() {
-        return this.name;
-    }
 }
