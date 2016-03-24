@@ -16,10 +16,4 @@ public class Animal {
         this.name = name;
     }
 
-    public static void main(String[] args) {
-
-        final Animal cat = new Animal();
-        cat.setName("boby");
-        System.out.println(cat.name);
-    }
 }
