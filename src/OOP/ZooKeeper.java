@@ -21,8 +21,12 @@ public class ZooKeeper {
         final Lion lion = new Lion();
         lion.setName("lion");
 
+        final Crocodile crocodile = new Crocodile();
+        crocodile.setName("crocodile");
+
         final ZooKeeper zooKeeper = new ZooKeeper();
         zooKeeper.feed(tiger);
         zooKeeper.feed(lion);
+        zooKeeper.feed(crocodile);
     }
 }
