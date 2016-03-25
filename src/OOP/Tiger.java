@@ -9,5 +9,8 @@ package OOP;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public class Tiger extends Animal implements Predator {
+public class Tiger extends Animal implements Predator, Barkable {
+    public void bark() {
+        System.out.println("어흥");
+    }
 }
