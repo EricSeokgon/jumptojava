@@ -9,7 +9,7 @@ package OOP;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public abstract class Predator extends Animal{
+public abstract class Predator extends Animal {
     public abstract String getName();
 
     public boolean isPredator() {
