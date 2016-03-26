@@ -9,7 +9,11 @@ package OOP;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public class Lion extends Animal implements Predator, Barkable {
+public class Lion extends Animal implements Barkable {
+    public String getName() {
+        return this.name;
+    }
+
     public void bark() {
         System.out.println("으르렁");
     }
