@@ -9,6 +9,6 @@ package OOP;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public interface Predator {
-    public String getName();
+public abstract class Predator extends Animal{
+    public abstract String getName();
 }
