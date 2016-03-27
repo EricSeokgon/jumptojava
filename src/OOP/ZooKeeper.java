@@ -10,7 +10,7 @@ package OOP;
  * To change this template use File | Settings | File Templates.
  */
 public class ZooKeeper {
-    public void feed(Predator predator) {
+    public void feed(Tiger predator) {
         System.out.println("feed " + predator.getName());
     }
 
@@ -28,5 +28,11 @@ public class ZooKeeper {
         zooKeeper.feed(tiger);
         zooKeeper.feed(lion);
         zooKeeper.feed(crocodile);
+    }
+
+    private void feed(Crocodile crocodile) {
+    }
+
+    private void feed(Lion lion) {
     }
 }

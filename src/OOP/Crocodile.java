@@ -9,5 +9,5 @@ package OOP;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public class Crocodile extends Animal implements Predator {
+public class Crocodile extends Animal {
 }
