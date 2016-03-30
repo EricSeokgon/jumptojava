@@ -1,7 +1,7 @@
 package inputoutput;
 
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Project: jumptojava
@@ -15,11 +15,11 @@ import java.io.IOException;
 public class Test {
     public static void main(String[] args) throws IOException {
         //final FileOutputStream outputStream = new FileOutputStream("d:/out.txt");
-        final FileWriter fw = new FileWriter("d:/out.txt");
+        final PrintWriter pw = new PrintWriter("d:/out.txt");
         for (int i = 1; i < 11; i++) {
             String data = i + " 번째 줄입니다.\r\n";
-            fw.write(data);
+            pw.println(data);
         }
-        fw.close();
+        pw.close();
     }
 }
