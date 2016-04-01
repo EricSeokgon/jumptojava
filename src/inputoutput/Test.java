@@ -1,5 +1,6 @@
 package inputoutput;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -21,5 +22,12 @@ public class Test {
             pw.println(data);
         }
         pw.close();
+
+        final FileWriter fw2 = new FileWriter("d:/out.txt", true);
+        for (int i = 11; i < 21; i++) {
+            String data = i + " 번째 중입니다.\r\n";
+            fw2.write(data);
+        }
+        fw2.close();
     }
 }
