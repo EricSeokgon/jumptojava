@@ -10,4 +10,5 @@ package Packages.house;
  * To change this template use File | Settings | File Templates.
  */
 public class HousePark {
+    protected String lastname = "park";
 }
