@@ -10,7 +10,7 @@ package statics;
  * To change this template use File | Settings | File Templates.
  */
 public class Counter {
-    int count = 0;
+    static int count = 0;
 
     public Counter() {
         this.count++;
