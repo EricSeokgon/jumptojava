@@ -22,6 +22,8 @@ public class Test {
             test.shouldBeRun();
         } catch (ArithmeticException e) {
             c = -1;
+        } finally {
+            test.shouldBeRun();
         }
     }
 }
