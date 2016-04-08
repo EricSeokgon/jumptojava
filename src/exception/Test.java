@@ -10,20 +10,16 @@ package exception;
  * To change this template use File | Settings | File Templates.
  */
 public class Test {
-    public void shouldBeRun(){
-        System.out.println("ok thanks.");
+    public void sayNick(String nick) {
+        if ("fool".equals(nick)) {
+            return;
+        }
+        System.out.println("당신의 별명은 " + nick + " 입니다.");
     }
 
     public static void main(String[] args) {
         final Test test = new Test();
-        int c;
-        try {
-            c = 4 / 0;
-            test.shouldBeRun();
-        } catch (ArithmeticException e) {
-            c = -1;
-        } finally {
-            test.shouldBeRun();
-        }
+        test.sayNick("fool");
+        test.sayNick("genious");
     }
 }
