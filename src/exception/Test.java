@@ -10,7 +10,7 @@ package exception;
  * To change this template use File | Settings | File Templates.
  */
 public class Test {
-    public void sayNick(String nick) {
+    public void sayNick(String nick) throws FoolException {
         try {
 
             if ("fool".equals(nick)) {
@@ -24,7 +24,12 @@ public class Test {
 
     public static void main(String[] args) {
         final Test test = new Test();
-        test.sayNick("fool");
-        test.sayNick("genious");
+        try {
+            test.sayNick("fool");
+            test.sayNick("genious");
+        } catch (FoolException e) {
+            System.out.println("FoolException이 발생했습니다.");
+        }
+
     }
 }
