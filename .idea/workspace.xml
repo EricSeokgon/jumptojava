@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="460ff6c9-2907-4620-8bd0-2b34baaaa016" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exception/FoolException.java" afterPath="$PROJECT_DIR$/src/exception/FoolException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exception/Test.java" afterPath="$PROJECT_DIR$/src/exception/Test.java" />
     </list>
     <ignored path="jumptojava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,8 +94,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exception/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="420">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/statics/Counter.java" />
         <option value="$PROJECT_DIR$/src/statics/Util.java" />
         <option value="$PROJECT_DIR$/src/statics/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/exception/Test.java" />
         <option value="$PROJECT_DIR$/src/exception/FoolException.java" />
+        <option value="$PROJECT_DIR$/src/exception/Test.java" />
       </list>
     </option>
   </component>
@@ -844,7 +844,7 @@
       <workItem from="1460040983673" duration="1163000" />
       <workItem from="1460127957425" duration="489000" />
       <workItem from="1460214503965" duration="194000" />
-      <workItem from="1460214774424" duration="238000" />
+      <workItem from="1460214774424" duration="335000" />
     </task>
     <task id="LOCAL-00006" summary="접근제어자&#10;">
       <created>1459522948627</created>
@@ -965,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460214994436</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exception">
+      <created>1460215019909</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1460215019909</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6824000" />
+    <option name="totallyTimeSpent" value="6921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="846" y="3" width="1022" height="1082" extended-state="0" />
@@ -984,7 +991,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32717392" sideWeight="0.53326404" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.47089398" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32717392" sideWeight="0.46673596" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32717392" sideWeight="0.46673596" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1031,7 +1038,8 @@
     <MESSAGE value="예외 발생시키기 (throw, throws)&#10;이번에는 예외를 작성해 보고 어떻게 활용할 수 있는가에 대해서 알아보자." />
     <MESSAGE value="예외 발생시키기 (throw, throws)&#10;" />
     <MESSAGE value="RuntimeException" />
-    <option name="LAST_COMMIT_MESSAGE" value="RuntimeException" />
+    <MESSAGE value="Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1406,8 +1414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="420">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
