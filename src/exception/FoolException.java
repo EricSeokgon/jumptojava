@@ -9,5 +9,5 @@ package exception;
  * Note:
  * To change this template use File | Settings | File Templates.
  */
-public class FoolException extends RuntimeException {
+public class FoolException extends Exception {
 }

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="460ff6c9-2907-4620-8bd0-2b34baaaa016" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exception/Test.java" afterPath="$PROJECT_DIR$/src/exception/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exception/FoolException.java" afterPath="$PROJECT_DIR$/src/exception/FoolException.java" />
     </list>
     <ignored path="jumptojava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,8 +94,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exception/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/exception/FoolException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/statics/Counter.java" />
         <option value="$PROJECT_DIR$/src/statics/Util.java" />
         <option value="$PROJECT_DIR$/src/statics/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/exception/FoolException.java" />
         <option value="$PROJECT_DIR$/src/exception/Test.java" />
+        <option value="$PROJECT_DIR$/src/exception/FoolException.java" />
       </list>
     </option>
   </component>
@@ -844,7 +844,7 @@
       <workItem from="1460040983673" duration="1163000" />
       <workItem from="1460127957425" duration="489000" />
       <workItem from="1460214503965" duration="194000" />
-      <workItem from="1460214774424" duration="213000" />
+      <workItem from="1460214774424" duration="238000" />
     </task>
     <task id="LOCAL-00006" summary="접근제어자&#10;">
       <created>1459522948627</created>
@@ -958,11 +958,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460214923030</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="RuntimeException">
+      <created>1460214994433</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1460214994436</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6799000" />
+    <option name="totallyTimeSpent" value="6824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="846" y="3" width="1022" height="1082" extended-state="0" />
@@ -1392,15 +1399,15 @@
     <entry file="file://$PROJECT_DIR$/src/exception/FoolException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>
