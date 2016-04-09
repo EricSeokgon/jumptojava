@@ -12,7 +12,7 @@ package exception;
 public class Test {
     public void sayNick(String nick) {
         if ("fool".equals(nick)) {
-            return;
+            throw new FoolException();
         }
         System.out.println("당신의 별명은 " + nick + " 입니다.");
     }
