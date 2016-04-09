@@ -23,7 +23,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        final Test test = new Test();
+        final Test test =   new Test();
         try {
             test.sayNick("fool");
             test.sayNick("genious");
