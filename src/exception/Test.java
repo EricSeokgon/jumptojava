@@ -30,6 +30,5 @@ public class Test {
         } catch (FoolException e) {
             System.out.println("FoolException이 발생했습니다.");
         }
-
     }
 }
