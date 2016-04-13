@@ -10,12 +10,29 @@ package threads;
  * To change this template use File | Settings | File Templates.
  */
 public class Test extends Thread {
+    int seq;
+
+    public Test(int seq) {
+        this.seq = seq;
+    }
+
     public void run() {
-        System.out.println("thread run.");
+
+        System.out.println(this.seq + " thread start.");
+        try {
+            Thread.sleep(1000);
+        } catch (Exception e) {
+
+        }
+        System.out.println(this.seq + " thread end.");
+
     }
 
     public static void main(String[] args) {
-        final Test test = new Test();
-        test.start();
+        for (int i = 0; i < 10; i++) {
+            final Test test = new Test(i);
+            test.start();
+        }
+        System.out.println("main end.");
     }
 }
